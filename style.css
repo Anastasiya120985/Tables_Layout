@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+div {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+ul {
+    list-style-type: square; 
+        
+    font-weight: 200;
+}
+#vegetables li {
+    color: blue;
+    list-style-image: url(C:/Users/Анастасия/Downloads/star_9241350-min.png);
+}
+#Frut li {
+    color: red;
+}
+ol {
+    color: green;        
+    counter-reset: number;
+}
+ol ul li::before {
+    content:  '- ';
+    counter-increment: number; 
+}
